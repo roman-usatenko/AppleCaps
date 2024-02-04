@@ -1,0 +1,45 @@
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore NuGet package restore files
+packages/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore Resharper files
+_ReSharper*/
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.bak
+*.swp
+
+# Ignore NuGet packages
+*.nupkg
+
+# Ignore user-specific files
+*.userprefs
+*.usertasks
+*.userrules
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
